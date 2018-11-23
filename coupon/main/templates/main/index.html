@@ -1,0 +1,135 @@
+{% load static %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Skeleton
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130902
+
+-->
+
+<style type="text/css">
+
+*        { margin:0; padding: 0; }
+
+body{
+         font-family: "맑은 고딕";
+         font-size: 0.75em;
+         color: #333;
+}
+
+
+
+
+
+
+#login-form{
+         width:200px;
+         margin:100px auto;
+         border: 1px solid gray;
+         border-radius: 5px;
+         padding: 15px;
+}
+
+
+/* inline이였던 요소들을 block으로 바꿈 */
+#login-form input, #login-form label{
+         display:block;
+}
+
+#login-form label{
+         margin-top: 10px;
+}
+
+
+#login-form input{
+         margin-top: 5px;
+}
+
+
+/* 애트리뷰트 선택자 */
+#login-form input[type='image']{
+         margin: 10px auto;
+}
+
+</style>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>KHUPhoneCoupon</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link rel="stylesheet"  href="{% static 'css/loginsource.css' %}">
+<link rel="stylesheet"  href="{% static 'css/myButton.css' %}">
+<link rel="stylesheet"  type="text/css" href="{% static 'css/default.css' %}" media="all">
+<link rel="stylesheet"  type="text/css" href="{% static 'css/fonts.css' %}" media="all">
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+</head>
+<body>
+<div id="page" class="container">
+	<div style="
+				background-image: URL('/static/css/images/background.jpg');
+background-repeat: no-repeat;
+background-position: 50% 50%;
+height: 200px;
+width: 100%;
+
+">
+		<div id="banner">
+		<img src="/static/css/images/khuphone.jpg" alt="" class="image-logo" />
+	</div>
+</div>
+
+	<div id="body">
+		<div id="location">
+					</div>
+		<div id="content">
+
+		</div>
+
+
+			</section>
+
+
+	<div id="main">
+
+		<form>
+  <div id="wrap">
+    <h1 class="member"><strong>member login</strong></h1>
+	  <br></br>
+    <div class="form">
+    <div class="form2">
+		 <div class="input_wrap"><input type="text" name="name" placeholder="ID" required=""></div>
+		 <div class="input_wrap"><input type="password" name="password" placeholder="PW" required=""></div>
+     <input type="submit" value="로그인">
+     <div class="clear"></div>
+		<br></br>
+     <div class="form4">
+      <label><input type="checkbox">아이디저장</label> <label><input
+       type="checkbox">보안접속</label>
+      <div class="clear"></div>
+      <label><input type="button" value="회원가입"></label> <label><input
+       type="button" value="아이디/비밀번호 찾기"></label>
+     </div>
+    </div>
+   </div>
+  </div>
+ </form>
+
+
+
+
+</div>
+</body>
+</html>
