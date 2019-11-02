@@ -11,7 +11,7 @@
 ### 참여 인력 : 
 - 개발자 : 강유미, 김가영, 배희수, 임은나
 
-### 개발스택 : html/css, node.js
-- Framework : Express
+### 개발스택 : html/css, python
+- Framework : Django
 
 ##### 미완성
